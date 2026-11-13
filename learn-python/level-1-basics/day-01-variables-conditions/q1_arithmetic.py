@@ -1,7 +1,7 @@
 num1 = int(input("Enter the first number:"));
 num2= int(input("Enter the second number:"));
 
-sum = num1 + num2
+total = num1 + num2
 
 if num1>num2:
     difference = num1-num2
@@ -13,7 +13,7 @@ product = num1*num2
 quotient = num1/num2
 
 
-print("Sum of two number is:", sum)
+print("Sum of two number is:", total)
 print("Difference of two number is:", difference)
 print("Product of two number is:", product)
 print("Quotient of two number is:", quotient)
