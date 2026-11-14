@@ -1,4 +1,4 @@
-
+n = int(input("enter the number: "))
 def is_armstrong(n):
     power = len(str(n))
     total = 0
@@ -9,6 +9,6 @@ def is_armstrong(n):
         temp //=10
     return total == n
 
-print(is_armstrong(153))
-print(is_armstrong(123))
+print(is_armstrong(n))
+
 
